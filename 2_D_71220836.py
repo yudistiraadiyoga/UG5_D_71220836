@@ -14,8 +14,8 @@ def hitung_mobil():
             jumlahJog += 1
         elif asal=='magelang':
             jumlahMag += 1
-    else:
-        NameError
+        else:
+            print('kota tidak diketahui!')
     print('='*10, ' Hasil ', '='*10)
     print(f'Jumlah Mobil Solo\t: {jumlahSol}\nJumlah Mobil Surabaya\t: {jumlahSur}\nJumlah Mobil Jogja\t: {jumlahJog}\nJumlah Mobil Magelang\t: {jumlahMag}')
     return
